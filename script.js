@@ -1,7 +1,5 @@
-import {divParentCityChoix} from "./modules/DivChoix.js";
+import {addlisteners} from "./modules/FormEvents.js"
 
 document.addEventListener("DOMContentLoaded", function() {
-
-let myDiv = new divParentCityChoix();
-
+    addlisteners(null, null);
 });

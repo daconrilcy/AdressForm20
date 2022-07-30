@@ -1,7 +1,7 @@
-import * as dv from './DivChoix.js';
-import {DivParentAdressChoix} from "./DivChoix.js";
+import {tagsNamesGeoChild} from './FormConst.js';
 
-document.addEventListener("DOMContentLoaded", function() {
-    let a = new DivParentAdressChoix();
-    console.log(a.div.classList)
-});
+for (let tag in tagsNamesGeoChild) {
+    console.log(tagsNamesGeoChild[tag]);
+}
+console.log(tagsNamesGeoChild.city);
+

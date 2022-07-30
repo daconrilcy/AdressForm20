@@ -20,31 +20,31 @@
                         <input type="text" id="inputpays" name="inputpays" class="form-control" placeholder="Indiquer le pays">
                     </div>
                     <div class="form-group mb-3" id="divadress">
-                        <label for="inputadress" class="form-label"> Adresse</label>
-                        <input type="text"  id="inputadress" name="inputadress" class="form-control" placeholder="Adresse">
-                        <label hidden for="refaddress"></label>
-                        <input type="text" id="refaddress" name="refaddress" hidden>
-                        <label hidden for="noaddress"></label>
-                        <input type="text" id="noaddress" name="noaddress" hidden>
-                        <label hidden for="streetaddress"></label>
-                        <input type="text" id="streetaddress" name="streetaddress" hidden>
+                        <label for="inputaddress" class="form-label"> Adresse</label>
+                        <input type="text"  id="inputaddress" name="inputaddress" class="form-control" placeholder="Adresse" data-name="inputaddress" data-auto=false>
+                        <label hidden for="inputrefaddress"></label>
+                        <input type="text" id="inputrefaddress" name="inputrefaddress" data-name="inputrefaddress" hidden>
+                        <label hidden for="inputnoaddress"></label>
+                        <input type="text" id="inputnoaddress" name="inputnoaddress" data-name="inputnoaddress" hidden>
+                        <label hidden for="inputstreetaddress"></label>
+                        <input type="text" id="inputstreetaddress" name="inputstreetaddress" data-name="inputstreetaddress" hidden>
                     </div>
 					<div class="form-group mb-3" id="divzipcode">
 						<label for="inputzipcode" class="form-label"> Code postal</label>
-						<input type="text" name="inputzipcode" class="form-control" placeholder="Code Postal" id="inputzipcode">
+						<input type="text" name="inputzipcode" class="form-control" placeholder="Code Postal" id="inputzipcode" data-name="inputzipcode" data-auto=false>
 						<div style="display: none; color: #f55" id="error_msg_zipcode"></div>
 					</div>
 					<div class="form-group mb-3" id="divcity">
                         <label for="inputcity" class="form-label"> Ville</label>
-                        <input type="text" id="inputcity" name="inputcity" class="form-control"  >
+                        <input type="text" id="inputcity" name="inputcity" class="form-control" placeholder="Ville" data-name="inputcity" data-auto=false>
                         <label for="inputcodecity" class="form-label" hidden></label>
-                        <input type="text" name="inputcodecity" id="inputcodecity" hidden>
+                        <input type="text" name="inputcodecity" id="inputcodecity" data-name="inputcodecity" hidden>
 					</div>
                     <div class="form-group mb-3" id="divgps" hidden>
                         <label hidden for="inputlon"></label>
                         <input type="text" id="inputlon" name="inputlon" class="form-control" hidden>
                         <label hidden for="inputlat"></label>
-                        <input type="text" id="inputlat" name="inputlat" class="form-control" hidden>
+                        <input type="text" id="inputlat" name="inputlat" class="form-control"  hidden>
                     </div>
 					<div class="mb-3">
 						<button type="submit" class="btn btn-primary">soumettre</button>
